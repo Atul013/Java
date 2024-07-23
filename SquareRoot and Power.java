@@ -9,7 +9,12 @@ class squareroot
 		System.out.println("Enter a number : ");
 		a = s1.nextInt();
 		double roota = Math.sqrt(a);
-		System.out.println("The square root is " +roota);
+		System.out.println("The square root of " +a+ " is " +roota);
 		s1.close();
+		System.out.println("Enter the two numbers to find power of the number:");
+		x=s1.nextDouble();
+		y=s1.nextDouble();
+		pow=Math.pow(x,y);
+		System.out.println("The " +y+ " power of "+x+" is:"+pow);
 	}
 }
