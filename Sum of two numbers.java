@@ -11,7 +11,7 @@ class sum
 		System.out.println("Enter the second number : ");
 		b = s1.nextInt();
 		int sum = a+b;
-		System.out.println("Sum of 2 numbers is " +sum);
+		System.out.println("Sum of the two numbers is " +sum);
 		s1.close();
 	}
 }
